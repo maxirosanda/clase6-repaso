@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="container">
@@ -16,6 +17,9 @@
         </div>
     </header>
     <nav class="navbar">
+        <div data-aos="fade-right" class="logo">
+            <img src="./assets/img/gamerpc.png" alt="">
+        </div>
         <ul>
             <li><a href="">Item</a></li>
             <li><a href="">Item</a></li>
@@ -98,6 +102,9 @@
     <footer class="footer">
         <h5>footer</h5>
     </footer>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
